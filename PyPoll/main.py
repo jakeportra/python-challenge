@@ -38,3 +38,5 @@ print(f"Winner: {winner_name} {winner_count}")
 print("-------------------------")
 
 #Export text file
+
+poll_df.to_csv("Output/poll_df.csv", index=False, header=True)
